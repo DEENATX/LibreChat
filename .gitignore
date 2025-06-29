@@ -125,3 +125,6 @@ helm/**/.values.yaml
 
 # SAML Idp cert
 *.cert
+
+# Ignore local nginx config overrides
+client/nginx.local.conf
